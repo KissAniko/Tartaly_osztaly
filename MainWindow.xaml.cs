@@ -239,16 +239,7 @@ namespace Tartaly_osztaly
 }
 
 
-/* JAVÍTANI! : - Nem számolja a %-ot
- *             - mentésnél csak az utolsó adatot menti el, illetve rögzítésnél nincs kiíratva az aktLiter adat... 
- *               ... és nem csv fájlba van mentve.
- *             - nincs Grid-elve a 2. oszlop alsó sora (a képből kimennek a gombok)
- *             - DuplaMeretnél, az adat és a liter kiíratásakor egybeolvad, nincs szóköz.
-               - A pluszLiter-nél beírtam, de nincs kiíratva az az adat, mikor megduplázzuk a térfogat mennyiségét.
-                   .. ezt úgy akartam megcsinálni, hogy ha rákattintunk a duplázóra, akkor írja ki ezeket az adatokat is
-               - a bekért PluszLiter egyből kiíródik listára, nem pedig a Tölt nevű gombot használja. 
-
-   ELVÉGZETT FELADATOK: - Számok ellenőrzése : a mező üresen nem maradhat, minusz és 0 nem lehet.
+/* ELVÉGZETT FELADATOK: - Számok ellenőrzése : a mező üresen nem maradhat, minusz és 0 nem lehet.
  *                      - Név ellenőrzése : a mező üresen nem maradhat
  *                      - Rádiógombok : felváltva működnek
                         - Felvesz : az adatokat listába teszi 
@@ -258,6 +249,17 @@ namespace Tartaly_osztaly
                         - Ürít : kiüríti a teljes listát
                         - DuplaMéret : megduplázza a térfogat mennyiségét
                         - Plusz liter : hozzáad bekért mennyiséget, amivel nő a térfogat mennyisége
+                        
+  JAVÍTANI FOGOM! : - Nem számolja a %-ot
+ *                  - mentésnél csak az utolsó adatot menti el, illetve rögzítésnél nincs kiíratva az aktLiter adat... 
+ *                    ... és nem csv fájlba van mentve.
+ *                  - nincs Grid-elve a 2. oszlop alsó sora (a képből kimennek a gombok)
+ *                  - DuplaMeretnél, az adat és a liter kiíratásakor egybeolvad, nincs szóköz.
+                    - A pluszLiter-nél beírtam, de nincs kiíratva az az adat, mikor megduplázzuk a térfogat mennyiségét.
+                      ... ezt úgy akartam megcsinálni, hogy ha rákattintunk a duplázóra, akkor írja ki ezeket az adatokat is
+                    - a bekért PluszLiter egyből kiíródik listára, nem pedig a Tölt nevű gombot használja. 
+                    - Nem a megfelelőmódon van GitHub-ra mentve (ezt is még gyakorolni kell).
+                        
 */
                         
            
