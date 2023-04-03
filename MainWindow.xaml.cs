@@ -142,6 +142,12 @@ namespace Tartaly_osztaly
              string[] TartalyArray;   */
 
 
+            string adat = $"{txtTestNev.Text};{txtA.Text};{txtB.Text};{txtC.Text}";
+            StreamWriter sw = new StreamWriter("mentettadatok.txt", true);
+            sw.WriteLine(adat);
+            sw.Close();
+            
+
             if (lbTartaly.Items.Count == 0)
             {
                 MessageBox.Show("Nincs menthető adat.");
@@ -151,13 +157,9 @@ namespace Tartaly_osztaly
             {
                 MessageBox.Show("Az adatok mentésre kerültek");
             }
-            StreamReader sr = new StreamReader("mentettadatok.txt", encoding: Encoding.UTF8);
+            
 
-            while (!sr.EndOfStream)
-            {
-                lbTartaly.Items.Add(sr.ReadLine());
-            }
-            sr.Close();
+           
 
             /*
              // MENTÉS CSV FÁJLBA ....???
