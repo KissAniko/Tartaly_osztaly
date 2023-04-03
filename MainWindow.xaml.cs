@@ -252,7 +252,8 @@ namespace Tartaly_osztaly
                         - DuplaMéret : megduplázza a térfogat mennyiségét
                         - Plusz liter : hozzáad bekért mennyiséget, amivel nő a térfogat mennyisége
                         
-  JAVÍTANI FOGOM! : - Nem számolja a %-ot                 
+  JAVÍTANI FOGOM! : - Nem számolja a %-ot    
+                    - Mentéskor hiányzik az aktuális liter .
  *                  - nincs Grid-elve a 2. oszlop alsó sora (a képből kimennek a gombok)
  *                  - DuplaMeretnél, az adat és a liter kiíratásakor egybeolvad, nincs szóköz.
                     - A pluszLiter-nél beírtam, de nincs kiíratva az az adat, mikor megduplázzuk a térfogat mennyiségét.
