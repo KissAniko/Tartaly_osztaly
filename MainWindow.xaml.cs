@@ -202,7 +202,7 @@ namespace Tartaly_osztaly
                 int b = Convert.ToInt32(txtB.Text);
                 int c = Convert.ToInt32(txtC.Text);
                 int terfogatKetszerese = (a * b * c * 2);
-                lbTartaly.Items.Add("Térfogat kétszerese:" + terfogatKetszerese + "liter");
+                lbTartaly.Items.Add("Térfogat kétszerese:" + terfogatKetszerese + "" +"liter");
             }           
         }
 //------------------------------------------------------------------------------------------------
@@ -254,8 +254,7 @@ namespace Tartaly_osztaly
                         
   JAVÍTANI FOGOM! : - Nem számolja a %-ot    
                     - Mentéskor hiányzik az aktuális liter .
- *                  - nincs Grid-elve a 2. oszlop alsó sora (a képből kimennek a gombok)
- *                  - DuplaMeretnél, az adat és a liter kiíratásakor egybeolvad, nincs szóköz.
+ *                  - nincs Grid-elve a 2. oszlop alsó sora (a képből kimennek a gombok)                  
                     - A pluszLiter-nél beírtam, de nincs kiíratva az az adat, mikor megduplázzuk a térfogat mennyiségét.
                       ... ezt úgy akartam megcsinálni, hogy ha rákattintunk a duplázóra, akkor írja ki ezeket az adatokat is
                     - a bekért PluszLiter egyből kiíródik listára, nem pedig a Tölt nevű gombot használja. 
